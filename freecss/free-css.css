@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.knopka{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-image: url(./Без\ названия\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    border: none;
+
+}
+
+
+
+
+.nav{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.nav  ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 15px;
+    
+}
+
+.li{
+   color: red;
+   
+}
+
+.main{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+    color: white;
+    display: flex;
+}
+
+.main_text{
+    width: 700px;
+    height: auto;
+    margin-top: 120px;
+}
+
+.main_text > p,h2,button{
+    margin-top: 20px;
+    margin-left: 40px;
+   
+}
+
+.main_text > h1{
+    margin-top: 20px;
+    margin-left: 40px;
+} 
+.main_text button{
+    width: 90px;
+    height: 40px;
+   border: 1px solid;
+   color: red;   
+   margin-top: 60px;
+}
+
+.main_text  > p,h1,h2{
+    font-size: 40px;
+}
+
+.main_text >  h1{
+    font-size: 50px;
+}
+
+.list_2{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+}
+
+.list2_img{
+width: 50%;
+height: 100%;
+background-image: url(./about.jpg);
+}
+
+.list2_text{
+ width: 50%;
+height: 100%;
+
+}
+
+.list2_text > p,h1,button{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.list2_text > p{
+    font-size: 20px;
+    color: slategray;
+}
+
+.list2_text > h1{
+    color: black;
+}
+
+.list2_text > button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    background-color: red;
+    color: white;
+}
+
+
+
+.list3{
+    width: 100%;
+    height: 100vh;
+   
+  
+}
+.list3_div{
+    display: flex;
+}
+.list3 .child1,.child2,.child3,.child4{
+    width: 50%;
+    height: 200px;
+   
+    display: flex;
+}
+
+.list3_icons,.list3_icons2{
+  width: 200px;
+  height: 200px;
+  background-image: url(./Без\ названия.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid;
+}
+
+.list3_icons2{
+    background-image: url(./Без\ названия\ \(1\).png);
+    
+}
+
+.child1 > h3,p{
+    flex-direction: column;
+}
+
+.list3 p,h1,div{
+    margin-top: 20px;
+}
+
+.card{
+    width: 500px;
+    height: 200px;
+    border: 1px solid;
+    flex-direction: column;
+    margin-left: 120px;
+  
+}
+
+.card2,.card4,.card6{
+    margin-left: 700px;
+}
+
+.list{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+.list5_text{
+width: 60%;
+height: 400px;
+margin-left: 300px
+
+}
+
+
+.list5_text button{
+    width: 150px;
+    height: 50px;
+    color: red;
+    margin-top: 70px;
+ 
+
+}
+
+.text5_color{
+color: white;   
+  
+}
+
+.list6_image{
+    width: 300px;
+    height: 280px;
+    margin-left: 30px;
+    
+}
+.list6_image2{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;   
+}
+.list6_control{
+display: flex;
+margin-left: 120px;
+}
+
+.list6_control2{
+display: flex;
+margin-left: 120px;
+}
+.list6_div2{
+width: 200px;
+height: 60px;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 60px;
+left: 80px;
+background-color: white;
+}
+
+.list6_div > a{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+
+.list6_button{
+    width:120px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+
+.list6_button2{
+    width:60px;
+    height: 30px;
+    background-color:white;
+    color: white;
+    border:2px solid red;
+}
+
+.list7{
+    width: 100%;
+    height: 90%;
+    background-color: red
+
+}
+.list7_text{
+   
+    flex-direction:column ;
+    width: 60%;
+    height: 600px;
+    margin-left: 300px;
+    
+}
+
+.text7_texts{
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+.text7_textss{
+    font-size: 30px;
+    color: red;
+}
+
+.list8{
+    width: 100%;
+    height: 100vh;
+}
+
+.list8_div{
+    display: flex;
+    margin-left: 230px;
+
+}
+
+.list8_text{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+   
+}
+
+.list8_texts{
+    margin-top: 20px;
+}
+
+#text{
+    border: none;
+}
+
+.list8_botton1{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 30px;
+}
+.list8_botton2{
+    width: 120px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    border: none;
+    margin-right: 30px;
+}
+.list8_botton3{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 30px;
+}
+
+.list9{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.ABC{
+    border-radius: 60px;
+    margin-left: 600px;
+    margin-top: 90px;
+    border: 1px dotted;
+}
+
+.list9_text{
+    width: 900px;
+    height: 200px;
+    background-color: white;
+    margin-left: 250px;
+    border-radius: 90px;
+    
+}
+.A{
+    margin-top: 20px;
+}
+
+.AB{
+    margin-top:60px ;
+}
+.list10{
+    width: 100%;
+    height: 100vh;
+}
+.list10_div{
+    display: flex;
+    width: 400px;
+}
+
+.list10_img{
+    width: 800px;
+    height:200px ;
+    border: 1px solid;
+    display: flex;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
